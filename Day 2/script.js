@@ -1,0 +1,3 @@
+// Variable in Javascript
+
+
