@@ -22,3 +22,40 @@ else if (a < b) {
 else {
     console.log("a is equal to b");
 }
+
+// switch case
+
+let day = prompt("Enter a day number (0-6):");
+day = Number.parseInt(day);
+switch (day) {
+    case 0:
+        console.log("Sunday");
+        break;
+    case 1:
+        console.log("Monday");
+        break;
+    case 2:
+        console.log("Tuesday");
+        break;
+    case 3:
+        console.log("Wednesday");
+        break;
+    case 4:
+        console.log("Thursday");
+        break;
+    case 5:
+        console.log("Friday");
+        break;
+    case 6:
+        console.log("Saturday");
+        break;
+    default:
+        console.log("Invalid day number");
+        break;
+}
+
+// Ternary Operator
+let age = prompt("Enter your age:");
+age = Number.parseInt(age);
+let canVote = (age >= 18) ? "You can vote." : "You cannot vote.";
+console.log(canVote);
